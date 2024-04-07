@@ -6,7 +6,8 @@ Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
 * Arthur Henrique Teixeira e Silva Bacelete
 * Davi Benjamin Guimarães
 * Alexandre Augusto dos Reis Junior
-* Nome completo do aluno 4
+* André Nestor Celino
+* Nome completo do aluno 5
 
 ## Professores responsáveis
 
