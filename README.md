@@ -7,7 +7,7 @@ Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
 * Davi Benjamin Guimarães
 * Alexandre Augusto dos Reis Junior
 * André Nestor Celino
-* Nome completo do aluno 5
+* Felipe Araújo Monteiro
 
 ## Professores responsáveis
 
