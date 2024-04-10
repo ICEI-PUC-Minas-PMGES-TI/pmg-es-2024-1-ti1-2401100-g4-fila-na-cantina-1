@@ -1,5 +1,5 @@
-# Nome do projeto
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+# FoodFlow
+O objetivo principal do nosso projeto é integrar e aproximar a cantina do aluno de forma que a compra e retirada dos lanches aconteça de maneira hábil e suficiente para o seu consumo. Assim, nos comprometemos com uma gestão eficiente do tempo de consumo e de demanda das filas, tornando-as menos demoradas e cheias. 
 
 ## Alunos integrantes da equipe
 
@@ -11,8 +11,8 @@ Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
 
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
+* Diego Augusto de Faria Barros
+* Simone Alves Nogueira
 
 ## Instruções de utilização
 
