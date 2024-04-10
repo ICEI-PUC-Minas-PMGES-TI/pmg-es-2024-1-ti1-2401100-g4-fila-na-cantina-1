@@ -1,5 +1,5 @@
 # FoodFlow
-O objetivo principal do nosso projeto é integrar e aproximar a cantina do aluno de forma que a compra e retirada dos lanches aconteça de maneira hábil e suficiente para o seu consumo. Assim, nos comprometemos com uma gestão eficiente do tempo de consumo e de demanda das filas, tornando-as menos demoradas e cheias. 
+O objetivo principal do nosso projeto é integrar e aproximar a cantina dos alunos de forma que a compra e retirada dos lanches aconteça de maneira hábil e suficiente para o seu consumo. Assim, nos comprometemos com uma gestão eficiente do tempo de consumo e de demanda das filas, tornando-as menos demoradas e cheias. 
 
 ## Alunos integrantes da equipe
 
