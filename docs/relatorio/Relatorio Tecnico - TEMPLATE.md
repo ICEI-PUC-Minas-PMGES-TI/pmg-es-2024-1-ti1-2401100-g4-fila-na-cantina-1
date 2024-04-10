@@ -165,7 +165,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Usuário do sistema  | Ver a opção de alimentos           | Escolher os alimentos antes de entrar na fila|
-|Usuario do sistema  | Alterar permissões                 | Permitir que possam administrar contas |
+|Usuario do sistema  | Ver o valor dos alimentos          | Confirir se tem o valor necessario para a compra e se o preço vale a pena |
 |Usuario do sistema  | 
 |Usuario do sistema  |
 |Usuario do sistema  |
