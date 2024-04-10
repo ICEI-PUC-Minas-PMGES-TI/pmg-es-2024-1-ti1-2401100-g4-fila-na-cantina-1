@@ -164,12 +164,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Ver a opções de alimentos           | Escolher os alimentos antes de entrar na fila|
-|Usuario do sistema  | Ver o valor dos alimentos          | Conferir se tem o valor necessario para a compra e se o preço vale a pena |
-|Usuario do sistema  | Fazer a compra diretamente pelo site| Diminuir o tempo que passa na fila|
-|Usuario do sistema  | Adicionar o seu estabelecimento(lanchonete) no site| Estar entre as opções de estabelecimentos presentes, alem de otimizar seu negocio|
-|Usuario do sistema  | Adicionar o seu catalogo de alimentos| Os potenciais cliente consigam ver o seu catalogo de produtos mesmo antes de chegaram presencialmente no local|
-|Usuario do sistema  | Ver as opções de estabelecimentos| Conseguir ver as opções de locais, e ver qual se encaixa melhor com o que deseja no momento|
+|Usuário do sistema  | Ver a opções de alimentos           | Escolher os alimentos antes de entrar na fila, para proporcinar uma experiencia mais rapido e eficiente|
+|Usuario do sistema  | Ver o valor dos alimentos          | Conferir se tem o valor necessario para a compra e se o preço é justo |
+|Usuario do sistema  | Fazer a compra diretamente pelo site| Ter uma experiencia mais rapida e eficiente |
+|Usuario do sistema  | Cadastrar seu estabelecimento(lanchonete) no site| Estar entre as opções de estabelecimentos presentes,aumentando a sua visibilidade|
+|Usuario do sistema  | Adicionar e atualizar o seu catalogo de alimentos| Os potenciais cliente consigam ver o seu catalogo de produtos mesmo antes de chegaram presencialmente no local|
+|Usuario do sistema  | Ver as opções de estabelecimentos| Conseguir ver as opções de locais, e ver qual atenda com as suas necessidades e desejos no momento|
 > Apresente aqui as histórias de usuário que são relevantes para o
 > projeto de sua solução. As Histórias de Usuário consistem em uma
 > ferramenta poderosa para a compreensão e elicitação dos requisitos
