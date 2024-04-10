@@ -8,6 +8,7 @@ O objetivo principal do nosso projeto é integrar e aproximar a cantina dos alun
 * Alexandre Augusto dos Reis Junior
 * André Nestor Celino
 * Felipe Araújo Monteiro
+* João Pedro Tavares e Amorim
 
 ## Professores responsáveis
 
