@@ -164,13 +164,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-008| Cadastro da forma de pagamento pelo aluno | ALTA |
 |RF-009| QR Code Gerado para o aluno | ALTA |
 |RF-010| Sistema de Feedback Estabelecimento/Aluno | MÉDIA |
-|RF-011| Emitir um relatório de tarefas no mês   | MÉDIA |
-|RF-012| Histórico de pedidos daquele lanchonete | MÉDIA |
-|RF-013| Pedidos mais desejados | MÉDIA |
-|RF-014| Sugestão de pedido pelo estabelecimento | MÉDIA |
-|RF-015| Sistema de filtragem dos alimentos (preço, demanda, etc.) | MÉDIA |
-|RF-016| Contate-nos | MÉDIA |
-|RF-017| Sobre nós | BAIXA |
+|RF-011| Histórico de pedidos daquele lanchonete | MÉDIA |
+|RF-012| Sistema de filtragem dos alimentos (preço, demanda, etc.) | MÉDIA |
 
 ### Requisitos não Funcionais
 
@@ -302,14 +297,12 @@ https://www.figma.com/file/LleNCpbdiaeYrSqSiKq2N7/Fila-da-Cantina?type=design&no
 
 ## Ferramentas
 
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
-
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
-|Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
+|Processo de Design Thinkgin  | Miro | https://miro.com/app/board/uXjVNiWgZ_8=/ | 
 |Repositório de código | GitHub | https://github.com/XXXXXXX | 
 |Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
+|Protótipo Interativo | MavelApp ou Figma | https://www.figma.com/file/LIeNCpbdiaeYrSqSiKq2N7?type=design | 
 
 >
 > Liste as ferramentas empregadas no desenvolvimento do
