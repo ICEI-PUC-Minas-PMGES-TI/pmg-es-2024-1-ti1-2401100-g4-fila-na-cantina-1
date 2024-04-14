@@ -71,8 +71,6 @@ Food Flow
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
 > De acordo com entrevistas realizadas com alunos e por experiência dos
 > integrantes do grupos, percebemos que demoramos muito tempo para realizar
 > a compra de alimentos nos estabelecimentos da PUC-Minas, assim não restando
@@ -206,7 +204,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
+https://www.figma.com/file/LleNCpbdiaeYrSqSiKq2N7/Fila-da-Cantina?type=design&node-id=0%3A1&mode=design&t=KMK2qAyaAtvKB9Qh-1
 
 > Apresente as principais interfaces da solução. Discuta como 
 > foram elaboradas de forma a atender os requisitos funcionais, não
