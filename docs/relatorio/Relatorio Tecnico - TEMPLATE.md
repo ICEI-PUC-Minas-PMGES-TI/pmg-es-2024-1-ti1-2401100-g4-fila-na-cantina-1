@@ -10,12 +10,12 @@ Food Flow
 ## Participantes
 
 > Membros da equipe:
-> Arthur Henrique Teixeira e Silva Bacelete
-> Davi Benjamin Guimarães
-> Alexandre Augusto dos Reis Junior
-> André Nestor Celino
-> Felipe Araújo Monteiro
-> João Pedro Tavares e Amorim
+> - Arthur Henrique Teixeira e Silva Bacelete
+> - Davi Benjamin Guimarães
+> - Alexandre Augusto dos Reis Junior
+> - André Nestor Celino
+> - Felipe Araújo Monteiro
+> - João Pedro Tavares e Amorim
 
 # Estrutura do Documento
 
