@@ -227,7 +227,7 @@ https://www.figma.com/file/LleNCpbdiaeYrSqSiKq2N7/Fila-da-Cantina?type=design&no
 
 ## User Flow
 
-......  INCLUA AQUI O DIAGRAMA COM O FLUXO DO USUÁRIO NA APLICAÇÃO ......
+https://app.flowmapp.com/share/projects/63ff843f-1931-497a-abc0-81384ff451e8/userflow/d503cdb2-1665-4ded-8429-00da65cb4ffe
 
 > Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor
 > mapear todo fluxo de telas do site ou app. Essa técnica funciona
@@ -246,7 +246,7 @@ https://www.figma.com/file/LleNCpbdiaeYrSqSiKq2N7/Fila-da-Cantina?type=design&no
 
 ## Wireframes
 
-......  INCLUA AQUI OS WIREFRAMES DAS TELAS DA APLICAÇÃO COM UM BREVE DESCRITIVO ......
+O Wireframe está ao lado do design do Figma
 
 > Wireframes são protótipos das telas da aplicação usados em design de interface para sugerir a
 > estrutura de um site web e seu relacionamentos entre suas
