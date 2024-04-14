@@ -287,12 +287,12 @@ O Wireframe está ao lado do design do Figma
 ## Divisão de Papéis
 
 
-> Arthur Henrique Teixeira e Silva Bacelete: Coordenação do grupo, Design Thinking (Miro) e Documentação do Projeto
-> Davi Benjamin Guimarães: Coordenação do grupo, Design Thinking (Miro)
-> Alexandre Augusto dos Reis Junior: Design Thinking (Miro)
-> André Nestor Celino: Elaboração dos Slides, Figma e Design Thinking (Miro) 
-> Felipe Araújo Monteiro: Design Thinking (Miro), Figma e UserFlow
-> João Pedro Tavares e Amorim: Documentação do Projeto e Design Thinking (Miro).
+- Arthur Henrique Teixeira e Silva Bacelete: Coordenação do grupo, Design Thinking (Miro) e Documentação do Projeto
+- Davi Benjamin Guimarães: Coordenação do grupo, Design Thinking (Miro)
+- Alexandre Augusto dos Reis Junior: Design Thinking (Miro)
+- André Nestor Celino: Elaboração dos Slides, Figma e Design Thinking (Miro)
+- Felipe Araújo Monteiro: Design Thinking (Miro), Figma e UserFlow
+- João Pedro Tavares e Amorim: Documentação do Projeto e Design Thinking (Miro).
 
 > Apresente a divisão de papéis e tarefas entre os membros do grupo.
 >
