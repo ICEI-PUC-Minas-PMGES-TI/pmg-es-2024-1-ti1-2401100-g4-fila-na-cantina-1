@@ -218,7 +218,12 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-https://www.figma.com/file/LleNCpbdiaeYrSqSiKq2N7/Fila-da-Cantina?type=design&node-id=0%3A1&mode=design&t=KMK2qAyaAtvKB9Qh-1
+O nosso projeto de interface inicial foi realizado no Figma de forma que a maioria dos requisitos funcionais fossem concebidos. No link abaixo, podemos observar uma tela inicial de login e cadastro para clientes e estabelecimentos da PUC Minas. Além disso, o nosso projeto de interface conta com: 
+  Uma página inicial onde os estabelecimentos colocam os seus produtos de destaque á mostra para os consumidores;
+  Uma tela para seleção do estabelecimento PUC Minas e nele a visualização de seus produtos (comidas, bebidas, balas, chocolates, etc.);
+  Uma tela de histórico de pedidos; 
+  Uma tela de efetuação do pagamento dos produtos selecionados no carrinho e o envio do QR Code via email. 
+Link do Figma: https://www.figma.com/file/LleNCpbdiaeYrSqSiKq2N7/Fila-da-Cantina?type=design&node-id=0%3A1&mode=design&t=KMK2qAyaAtvKB9Qh-1
 
 > Apresente as principais interfaces da solução. Discuta como 
 > foram elaboradas de forma a atender os requisitos funcionais, não
