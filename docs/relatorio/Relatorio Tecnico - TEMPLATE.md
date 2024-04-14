@@ -286,7 +286,13 @@ O Wireframe está ao lado do design do Figma
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
+
+> Arthur Henrique Teixeira e Silva Bacelete: Coordenação do grupo, Design Thinking (Miro) e Documentação do Projeto
+> Davi Benjamin Guimarães: Coordenação do grupo, Design Thinking (Miro)
+> Alexandre Augusto dos Reis Junior: Design Thinking (Miro)
+> André Nestor Celino: Elaboração dos Slides, Figma e Design Thinking (Miro) 
+> Felipe Araújo Monteiro: Design Thinking (Miro), Figma e UserFlow
+> João Pedro Tavares e Amorim: Documentação do Projeto e Design Thinking (Miro).
 
 > Apresente a divisão de papéis e tarefas entre os membros do grupo.
 >
@@ -301,7 +307,7 @@ O Wireframe está ao lado do design do Figma
 |-----------|-------------------------|---------------|
 |Processo de Design Thinkgin  | Miro | https://miro.com/app/board/uXjVNiWgZ_8=/ | 
 |Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PMGES-TI/pmg-es-2024-1-ti1-2401100-g4-fila-na-cantina-1/tree/master/codigo | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
+|UserFlow | FlowmApp | https://app.flowmapp.com/share/projects/63ff843f-1931-497a-abc0-81384ff451e8/userflow/d503cdb2-1665-4ded-8429-00da65cb4ffe | 
 |Protótipo Interativo | MavelApp ou Figma | https://www.figma.com/file/LIeNCpbdiaeYrSqSiKq2N7?type=design | 
 
 >
