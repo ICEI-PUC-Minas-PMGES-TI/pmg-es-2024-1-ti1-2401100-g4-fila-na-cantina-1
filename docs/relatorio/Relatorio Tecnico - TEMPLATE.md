@@ -151,18 +151,31 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-|RF-003| O sistema permitirá com que o aluno/funcionário se cadastre  | ALTA |
-|RF-004| Emitir um relatório de tarefas no mês   | MÉDIA |
-
+|RF-001| Permitir que o usuário cadastre tarefas | ALTA |
+|RF-002| Cadastramento do estabelecimento e aluno  | ALTA |
+|RF-003| Variedade de estabelecimentos | ALTA |
+|RF-004| Sistema de catálogo (opção de bebida e lanche) | ALTA |
+|RF-005| Cadastramento de lanches pelo estabelecimento | ALTA |
+|RF-006| Adicionar/remover lanches e bebidas pelo estabelecimento | ALTA |
+|RF-007| Atualização de preços pelo estabelecimento | ALTA |
+|RF-008| Cadastro da forma de pagamento pelo aluno | ALTA |
+|RF-009| QR Code Gerado para o aluno | ALTA |
+|RF-010| Sistema de Feedback Estabelecimento/Aluno | MÉDIA |
+|RF-011| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-012| Histórico de pedidos daquele lanchonete | MÉDIA |
+|RF-013| Pedidos mais desejados | MÉDIA |
+|RF-014| Sugestão de pedido pelo estabelecimento | MÉDIA |
+|RF-015| Sistema de filtragem dos alimentos (preço, demanda, etc.) | MÉDIA |
+|RF-016| Contate-nos | MÉDIA |
+|RF-017| Sobre nós | BAIXA |
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-002| Deve processar requisições do usuário em no máximo 3s | BAIXA | 
+|RNF-003| Confiabilidade das informações dos alunos | ALTA | 
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
 > solução. Classifique esses requisitos em dois grupos:
@@ -194,6 +207,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
+|03| O aplicativo está restrito a utilização dentro das PUC's        |
 
 
 > Enumere as restrições à sua solução. Lembre-se de que as restrições
