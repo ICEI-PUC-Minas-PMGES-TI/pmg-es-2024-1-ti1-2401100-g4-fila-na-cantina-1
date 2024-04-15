@@ -341,8 +341,7 @@ Nos baseamos na metodologia Scrum, no qual planejamos o projeto e em seguido ava
 > - [GitHub Pages](https://pages.github.com/)
 
 ## Controle de Versão
-
-......  COLOQUE AQUI O SEU TEXTO ......
+O grupo auxiliou na elaboração do projeto através de vários commits no main. 
 
 > Discuta como a configuração do projeto foi feita na ferramenta de
 > versionamento escolhida. Exponha como a gerência de tags, merges,
