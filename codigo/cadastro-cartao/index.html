@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro Cartão | FoodFlow</title>
+    <link rel="stylesheet" href="../style.css" />
+    <link rel="stylesheet" href="CadastroCartao.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card-container">
+        <div class="front">
+          <div class="image">
+            <img src="../assets/img/chip.png" alt="" />
+          </div>
+          <div class="card-number-box">################</div>
+          <div class="flexbox flexbox-front">
+            <div class="box">
+              <div class="card-holder-name">(nome do titular)</div>
+            </div>
+            <div class="box">
+              <div class="expiration">
+                <span class="exp-month">mm</span>
+                <span>/</span>
+                <span class="exp-year">yy</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="back">
+          <div class="stripe"></div>
+          <div class="box">
+            <span>cvv</span>
+            <div class="cvv-box"></div>
+            <img src="image/visa.png" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <form action="">
+        <div class="inputBox">
+          <span>número do cartão</span>
+          <input type="text" maxlength="19" class="card-number-input" placeholder="Ex: 1234 5678 9102 3456"/>
+        </div>
+        <div class="inputBox">
+          <span>nome do titular</span>
+          <input type="text" class="card-holder-input" maxlength="19" placeholder="Ex: John Doe" />
+        </div>
+        <div class="flexbox">
+          <div class="inputBox">
+            <span>expiração (mês)</span>
+            <select name="" id="" class="month-input">
+              <option value="mes" selected disabled>mês</option>
+              <option value="01">01</option>
+              <option value="02">02</option>
+              <option value="03">03</option>
+              <option value="04">04</option>
+              <option value="05">05</option>
+              <option value="06">06</option>
+              <option value="07">07</option>
+              <option value="08">08</option>
+              <option value="09">09</option>
+              <option value="10">10</option>
+              <option value="11">11</option>
+              <option value="12">12</option>
+            </select>
+          </div>
+          <div class="inputBox">
+            <span>expiração (ano)</span>
+            <select name="" id="" class="year-input">
+              <option value="ano" selected disabled>ano</option>
+              <option value="2025">2025</option>
+              <option value="2026">2026</option>
+              <option value="2027">2027</option>
+              <option value="2028">2028</option>
+              <option value="2029">2029</option>
+              <option value="2030">2030</option>
+              <option value="2031">2031</option>
+              <option value="2032">2032</option>
+              <option value="2033">2033</option>
+              <option value="2033">2034</option>
+            </select>
+          </div>
+          <div class="inputBox">
+            <span>CVV</span>
+            <input type="text" maxlength="3" class="cvv-input" placeholder="Ex: 123"/>
+          </div>
+        </div>
+        <button type="submit" class="submit-btn boxshadow-3D">
+            Cadastrar
+        </button>
+        <a href="#" class="back-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="#A5ACBB" viewBox="0 0 256 256"><path d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm0,192a88,88,0,1,1,88-88A88.1,88.1,0,0,1,128,216Zm48-88a8,8,0,0,1-8,8H107.31l18.35,18.34a8,8,0,0,1-11.32,11.32l-32-32a8,8,0,0,1,0-11.32l32-32a8,8,0,0,1,11.32,11.32L107.31,120H168A8,8,0,0,1,176,128Z"></path></svg>
+          Sair
+        </a>
+      </form>
+    </div>
+    <script src="CadastroCartao.js"></script>
+  </body>
+</html>
