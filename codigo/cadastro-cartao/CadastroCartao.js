@@ -1,3 +1,5 @@
+import { database, ref, set } from "../script.js";
+
 document.querySelector(".card-number-input").oninput = () => {
   document.querySelector(".card-number-box").innerText =
     document.querySelector(".card-number-input").value;
@@ -66,7 +68,7 @@ document.querySelector(".cvv-input").oninput = () => {
 
 const form = document.querySelector("form");
 
-form.addEventListener("submit", (event) => {
+form.addEventListener("submit", async (event) => {
   event.preventDefault();
 
   const cardNumberInput = document.querySelector(".card-number-input").value;
@@ -100,5 +102,17 @@ form.addEventListener("submit", (event) => {
     return;
   }
 
-  form.submit();
+  try {
+    set(ref(database, "Cliente/cartoes" + new Date().getTime()), {
+      nomeTitular: cardHolderInput,
+      numeroCartao: cardNumberInput,
+      dataDeExpiracao: `${monthInput}/${yearInput}`,
+      cvv: cvvInput,
+    });
+    alert("Cadastro do cartão feito com sucesso!");
+    form.reset();
+  } catch (error) {
+    console.error("Erro ao enviar dados para o DB:", error);
+    alert("Falha ao enviar dados.");
+  }
 });
