@@ -1,0 +1,99 @@
+main{
+    height: 100vh;
+    margin-top: 120px;
+    padding-left: 152px;
+    padding-top: 30px;
+}
+.input{
+    width: 272px;
+    height: 50px;
+    border: 2px solid rgb(200,200,200);
+    outline: 0;
+    font-size: 16px;
+    color: rgb(80,80,80);
+    transition: 0.5s ease-in-out;
+    border-radius: 20px;
+    padding: 13px 20px;
+}
+
+
+
+
+.box-gerenciar{
+    display: grid;
+    grid-template-columns: 1fr 0.75fr 0.75fr;
+    grid-template-rows: 1fr 1fr;
+    -webkit-box-shadow: 3px 3px 29px 1px rgba(0,0,0,0.82);
+    -moz-box-shadow: 3px 3px 29px 1px rgba(0,0,0,0.82);
+    box-shadow: 3px 3px 29px 1px rgba(0,0,0,0.82);
+    padding: 20px;
+    border-radius: 20px;
+    width: 1500px;
+    height: 750px;
+}
+.alterar-img{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    padding: 10px;
+}
+.alterar-nome{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-left: 2px ridge black;
+    border-right: 2px ridge black;
+    border-bottom: 2px ridge black;
+    padding: 10px;
+}
+.alterar-quantidade{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3; 
+    border-left: 2px ridge black;
+    border-right: 2px ridge black;
+    padding: 10px;
+}
+.alterar-preco{
+    grid-column-start:3;
+    grid-column-end: 4;
+    grid-row-start:1;
+    grid-row-end: 3; 
+    padding: 10px;
+}
+.button-de-finalizar{
+    background-color: #FFBE9A;
+    width: 200px;
+    height: 60px;
+    border-radius: 20px;
+    border: 4px outset #fdb77d;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 150px;
+    padding-top: 10px;
+}
+.button-de-finalizar h5{
+    font-size: x-large;
+    font-weight: 600;
+}
+.button-de-finalizar:hover{
+    background-color: #fca35b;
+    transition: 0.2s;
+}
+.button-deletar{
+    color: #FF0000;
+    font-size: x-large;
+    font-weight:600;
+    margin-left: 70px;
+    width: 125px;
+    padding: 5px;
+    border-radius: 20px;
+}
+.button-deletar:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.2s;
+}
