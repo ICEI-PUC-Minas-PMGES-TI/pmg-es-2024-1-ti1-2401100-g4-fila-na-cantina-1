@@ -3,7 +3,8 @@ const inputFile = document.getElementById("input-file");
 const imageView = document.getElementById("img-view");
 const previewImg = document.querySelector(".preview-img");
 
-inputFile.addEventListener("change", uploadImage);
+
+inputFile?.addEventListener("change", uploadImage);
 
 function uploadImage() {
   let imgLink = URL.createObjectURL(inputFile.files[0]);
@@ -13,17 +14,17 @@ function uploadImage() {
 
   if (inputFile.files && inputFile.files[0]) {
     const reader = new FileReader();
-    reader.onload = function(e) {
+    reader.onload = function (e) {
       previewImg.src = e.target.result;
-    }
+    };
     reader.readAsDataURL(inputFile.files[0]);
   }
 }
 
-dropArea.addEventListener("dragover", function (e) {
+dropArea?.addEventListener("dragover", function (e) {
   e.preventDefault();
 });
-dropArea.addEventListener("drop", function (e) {
+dropArea?.addEventListener("drop", function (e) {
   e.preventDefault();
   inputFile.files = e.dataTransfer.files;
   uploadImage();
@@ -36,14 +37,18 @@ const preco = document.getElementById("preco");
 const previewQtd = document.querySelector(".preview-qtd");
 const qtd = document.getElementById("qtd");
 
-nome.oninput = () => {
-  previewNome.textContent = nome.value;
-};
-
-preco.oninput = () => {
-  previewPreco.textContent = preco.value;
-};
-qtd.oninput = () => {
-  previewQtd.textContent = qtd.value;
-};
-
+if (nome) {
+  nome.oninput = () => {
+    previewNome.textContent = nome.value;
+  };
+}
+if (preco) {
+  preco.oninput = () => {
+    previewPreco.textContent = preco.value;
+  };
+}
+if (qtd) {
+  qtd.oninput = () => {
+    previewQtd.textContent = qtd.value;
+  };
+}
