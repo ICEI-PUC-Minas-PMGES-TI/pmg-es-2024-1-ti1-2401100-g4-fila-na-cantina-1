@@ -3,7 +3,8 @@ import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/10.11.
 import {
   getAuth,
   createUserWithEmailAndPassword,
-  signInWithEmailAndPassword
+  signInWithEmailAndPassword,
+  sendPasswordResetEmail
 } from "https://www.gstatic.com/firebasejs/10.11.1/firebase-auth.js";
 
 const firebaseConfig = {
@@ -21,4 +22,4 @@ const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
 const database = getDatabase(app);
 
-export { app, auth, database, createUserWithEmailAndPassword, ref, set, signInWithEmailAndPassword };
+export { app, auth, database, createUserWithEmailAndPassword, ref, set, signInWithEmailAndPassword, sendPasswordResetEmail };

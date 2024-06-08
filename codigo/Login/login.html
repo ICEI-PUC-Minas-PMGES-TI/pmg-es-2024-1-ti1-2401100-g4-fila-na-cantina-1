@@ -19,7 +19,7 @@
                         <input type="checkbox" name="" id="">
                         <p>Manter Login</p>
                     </span>
-                    <a href="#">Esqueceu sua senha?</a>
+                    <a href="#" onclick="alternarEsqueceuSenha()">Esqueceu sua senha?</a>
                 </div>
                 <input type="submit" value="ENTRAR" class="btn-login" id="btn-login-cliente">
             </form>
@@ -37,7 +37,7 @@
                         <input type="checkbox" name="" id="">
                         <p>Manter Login</p>
                     </span>
-                    <a href="#">Esqueceu sua senha?</a>
+                    <a href="#" onclick="alternarEsqueceuSenha()">Esqueceu sua senha?</a>
                 </div>
                 <input type="submit" value="ENTRAR" class="btn-login" id="btn-login-empresa">
             </form>
@@ -71,9 +71,22 @@
             </form>
             <p class="ir-login">Já possui uma conta? <a href="#" onclick="alternarLoginEmpresa()">Entrar</a></p>
         </section>
+        <!-- TELA DE ESQUECEU A SENHA: -->
+        <section class="container-registro" id="section-esqSenha">
+            <img src="../assets/img/Forgot password-amico.svg" />
+            <h1>Esqueceu sua senha?</h1>
+            <h2>Informe seu endereço de email e enviaremos um link para
+                você redefinir a senha:</h2>
+                <form>
+                <input type="email" placeholder="" class="input-esqSenha" id="esqSenha" required>
+                <input type="submit" value="ENVIAR" class="btn-login">
+                </form>
+            <h3 class="VaL-btn" onclick="alternarLoginCliente()">VOLTAR AO LOGIN</h3>
+        </section>
     </main>
     <script src="login.js"></script>
     <script type="module" src="cadastro.js"></script>
+    <script type="module" src="esqSenha.js"></script>
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </body>
 </html>
