@@ -104,10 +104,10 @@
               ></path>
             </svg>
           </h1>
-          <div class="cards-bebidas">
-            <div class="card-add cards-produtos">
+          <div class="cards-bebidas" id="cards-comidas-bebidas">
+            <div class="card-add">
               <div class="bola-add">
-                <h3><a href="#">+</a></h3>
+                <h3><a href="./adicionar-produto-BBD.html">+</a></h3>
               </div>
               <h3>Adicionar Bebida</h3>
             </div>
@@ -144,9 +144,11 @@
 
     <script src="../assets/javascript/script.js"></script>
     <script src="../assets/javascript/CRUD.js"></script>
+    <script src="../assets/javascript/CRUD-BBD.js"></script>
     <script>
       document.addEventListener('DOMContentLoaded', (event) => {
     readProduto();
+    readProdutoBebidas();
 });
 
     </script>

@@ -13,14 +13,14 @@ const setLocalStorage = (productList) => {
 
 // CRUD-- DELETE
 const deleteProduto = (index) => {
-  const dbProdutos = readProduto();
+  const dbProdutos = getLocalStorage();
   dbProdutos.splice(index, 1);
   setLocalStorage(dbProdutos);
 };
 
 // CRUD-- UPDATE
 const updateProduto = (index, produto) => {
-  const dbProdutos = readProduto();
+  const dbProdutos = getLocalStorage();
   dbProdutos[index] = produto;
   setLocalStorage(dbProdutos);
 };
@@ -28,8 +28,8 @@ const updateProduto = (index, produto) => {
 // CRUD-- READ
 function readProduto() {
   const listaDeProdutos = getLocalStorage();
-  listaDeProdutos.forEach((produto) => {
-    createCard(produto);
+  listaDeProdutos.forEach((produto, index) => {
+    createCard(produto, index);
   });
 }
 
@@ -49,7 +49,6 @@ const criarProduto = async () => {
 
   if (
     !fileBase64Value ||
-    !inputEDestaqueValue ||
     !inputNomeProdutoValue ||
     !inputPrecoProdutoValue ||
     !inputQtdProdutoValue
@@ -69,6 +68,7 @@ const criarProduto = async () => {
   productList.push(submitObj);
 
   setLocalStorage(productList);
+  window.location.href = "/codigo/Adicionar-produto/views/lista-produtos.html";
 };
 
 const alertPlaceholder = document.getElementById("liveAlertPlaceholder");
@@ -92,14 +92,6 @@ if (alertTrigger) {
 }
 
 //Interação com o layout
-const isValidFields = () => {
-  return document.getElementsByClassName("form")?.reportValidity();
-};
-
-const clearFields = () => {
-  const fields = document.querySelectorAll(".inputJS");
-  fields.forEach((field) => (field.value = ""));
-};
 
 async function getBase64(file) {
   return new Promise((resolve, reject) => {
@@ -115,27 +107,11 @@ async function getBase64(file) {
   });
 }
 
-const closeAdicionarProdutos = () => {
-  clearFields();
-};
-
-// linkar nos inputs
-document.getElementById("gerenciar-btn")?.addEventListener("click", () => {
-  window.location.href = "./gerenciar-produto.html";
-});
-
-
 document
   .getElementById("btn-adicionar")
   ?.addEventListener("click", criarProduto);
 
-//window_gerenciar.location.href = "./gerenciar-produto.html";
-//document
- // .getElementById("gerenciar-btn")
- //?.addEventListener("click", window_gerenciar);
-
-//
-const createCard = (produto) => {
+const createCard = (produto, index) => {
   const cardComidas = document.getElementById("cards-comidas");
   if (!cardComidas) {
     return;
@@ -163,12 +139,103 @@ const createCard = (produto) => {
                   <h6 class="preview-qtd">${produto.qtd}</h6>
                 </div>
               </div>
+              <a href="/codigo/Adicionar-produto/views/gerenciar-produto.html?id=${index}" class="gerenciar-btn">Gerenciar Item</a>
               </div>
-              <button class="gerenciar-btn">Gerenciar Item</button>
               
     `;
   cardComidas.appendChild(newCard);
 };
-//document.querySelector('.gerenciar-btn').addEventListener('click', function() {
-//  window.location.href = './gerenciar-produto.html';
-//}); 
+
+function getProduto() {
+  const params = new URLSearchParams(window.location.search);
+
+  const id = params.get("id");
+
+  const listaDeProdutos = getLocalStorage();
+
+  const produto = listaDeProdutos[id];
+
+  console.log("produto", produto);
+
+  const imgAtual = document.getElementById("img-atual-gerenciar");
+
+  imgAtual.src = produto.img;
+
+  const nomeAtual = document.getElementById("nome-atual-gerenciar");
+
+  nomeAtual.innerText = `Nome atual: ${produto.nome}`;
+
+  const qtdAtual = document.getElementById("qtd-atual-gerenciar");
+
+  qtdAtual.innerText = `Quantidade: ${produto.qtd}`;
+
+  const precoAtual = document.getElementById("preco-atual-gerenciar");
+
+  precoAtual.innerText = `R$: ${produto.preco}`;
+}
+
+document.getElementById("btn-voltar")?.addEventListener("click", () => {
+  window.location.href = "/codigo/Adicionar-produto/views/lista-produtos.html";
+});
+
+document.getElementById("btn-deletar")?.addEventListener("click", () => {
+  const params = new URLSearchParams(window.location.search);
+
+  const id = params.get("id");
+
+  const listaDeProdutos = getLocalStorage();
+
+  const produto = listaDeProdutos[id];
+  deleteProduto(id);
+  window.location.href = "/codigo/Adicionar-produto/views/lista-produtos.html";
+}); /*getBase64(inputFileGerenciar.files[0]);
+/*
+document
+  .getElementById("btn-finalizar-gerenciar")
+  ?.addEventListener("click", () => {
+    const params = new URLSearchParams(window.location.search);
+
+    const id = params.get("id");
+
+    const inputFileGerenciar = document.getElementById("input-file-Gerenciar");
+    const inputEDestaqueGerenciar = document.getElementById(
+      "flexCheckDefault-Gerenciar"
+    );
+    const inputNomeProdutoGerenciar = document.getElementById("nome-Gerenciar");
+    const inputPrecoProdutoGerenciar =
+      document.getElementById("preco-Gerenciar");
+    const inputQtdProdutoGerenciar = document.getElementById("qtd-Gerenciar");
+    const fileBase64ValueGerenciar =
+      inputFileGerenciar.files.length > 0 &&
+      /*await*/
+/*const inputEDestaqueValueGerenciar = inputEDestaqueGerenciar.checked;
+    const inputNomeProdutoValueGerenciar = inputNomeProdutoGerenciar.value;
+    const inputPrecoProdutoValueGerenciar = inputPrecoProdutoGerenciar.value;
+    const inputQtdProdutoValueGerenciar = inputQtdProdutoGerenciar.value;
+
+    if (
+      !fileBase64Value ||
+      !inputNomeProdutoValue ||
+      !inputPrecoProdutoValue ||
+      !inputQtdProdutoValue
+    ) {
+      appendAlert("Todos os campos são obrigatorios", "danger");
+    }
+
+    const submitObjGerenciar = {
+      eDestaque: inputEDestaqueValueGerenciar,
+      img: fileBase64ValueGerenciar,
+      nome: inputNomeProdutoValueGerenciar,
+      preco: inputPrecoProdutoValueGerenciar,
+      qtd: inputQtdProdutoValueGerenciar,
+    };
+
+    const productList = getLocalStorage();
+    productList.push(submitObj);
+
+    setLocalStorage(productList);
+
+    updateProduto(id, produto);
+    window.location.href =
+      "/codigo/Adicionar-produto/views/lista-produtos.html";
+  });*/

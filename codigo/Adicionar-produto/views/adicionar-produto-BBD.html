@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/CSS/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../assets/CSS/adicionar-prduto.css" />
+    <link rel="stylesheet" href="../assets/CSS/Input-img.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar fixed-top">
+        <div class="header-container">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img class="logo-sidebar" src="../assets/img/logo.svg" alt="logo" />
+          </a>
+          <div
+            class="offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <img
+                class="logo-sidebar"
+                src="../assets/img/logo.svg"
+                alt="logo"
+              />
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item nav-flex">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24ZM74.08,197.5a64,64,0,0,1,107.84,0,87.83,87.83,0,0,1-107.84,0ZM96,120a32,32,0,1,1,32,32A32,32,0,0,1,96,120Zm97.76,66.41a79.66,79.66,0,0,0-36.06-28.75,48,48,0,1,0-59.4,0,79.66,79.66,0,0,0-36.06,28.75,88,88,0,1,1,131.52,0Z"
+                    ></path>
+                  </svg>
+                  <a class="nav-link" href="#">Perfil</a>
+                </li>
+                <li class="nav-item nav-flex">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="#000000"
+                    viewBox="0 0 256 256"
+                  >
+                    <path
+                      d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,160H40V56H216V200ZM184,96a8,8,0,0,1-8,8H80a8,8,0,0,1,0-16h96A8,8,0,0,1,184,96Zm0,32a8,8,0,0,1-8,8H80a8,8,0,0,1,0-16h96A8,8,0,0,1,184,128Zm0,32a8,8,0,0,1-8,8H80a8,8,0,0,1,0-16h96A8,8,0,0,1,184,160Z"
+                    ></path>
+                  </svg>
+                  <a class="nav-link" href="#">Histórico</a>
+                </li>
+              </ul>
+              <div class="sidebar-footer"></div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <! -- div para colocar as divisoes da tela -->
+      <div class="conj-grid">
+        <div class="item-grid1">
+          <h1 class="fw-semibold fs-3">
+            Imagem do Item
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="48"
+              height="48"
+              fill="#000000"
+              viewBox="0 0 256 256"
+            >
+              <path
+                d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"
+              ></path>
+            </svg>
+          </h1>
+
+          <div class="hero">
+            <label for="input-file" id="drop-area">
+              <input
+                class="form inputJS"
+                type="file"
+                accept="image/*"
+                id="input-file"
+                hidden
+                required
+              />
+              <div id="img-view">
+                <img src="../assets/img/icon-removebg-preview.png" />
+              </div>
+              <span>Formatos: svg, png, jpeg</span>
+            </label>
+          </div>
+          <h1 class="fw-semibold fs-3">
+            Nome do Item
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="48"
+              height="48"
+              fill="#000000"
+              viewBox="0 0 256 256"
+            >
+              <path
+                d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"
+              ></path>
+            </svg>
+          </h1>
+          <form>
+            <div class="single-input form">
+              <input type="text" class="input inputJS" id="nome" required />
+              <label for="nome"> Nome do Item:</label>
+            </div>
+          </form>
+
+          <div class="form-check">
+            <input
+              class="form-check-input fs-4 botao-destaque"
+              type="checkbox"
+              value=""
+              id="flexCheckDefault"
+            />
+            <label
+              class="form-check-label fw-semibold fs-5 texto-botao-destaque"
+              for="flexCheckDefault"
+            >
+              Marcar como destaque
+            </label>
+            <p class="texto-marcar-destaque">
+              Itens em destaque irão aparecer <br />
+              na tela ‘Home’ para os clientes.
+            </p>
+          </div>
+        </div>
+        <div class="item-grid2">
+          <h1 class="texto-da-pag fw-semibold fs-3">
+            Preço do Item
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="48"
+              height="48"
+              fill="#000000"
+              viewBox="0 0 256 256"
+            >
+              <path
+                d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"
+              ></path>
+            </svg>
+          </h1>
+          <form class="input--da-pag form">
+            <div class="single-input">
+              <input
+                type="number"
+                placeholder="R$ 0,00"
+                class="input inputJS"
+                id="preco"
+                min="{0}"
+                required
+              />
+            </div>
+          </form>
+
+          <h1 class="texto-da-pag2 fw-semibold fs-3">
+            Quantidade diária
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="48"
+              height="48"
+              fill="#000000"
+              viewBox="0 0 256 256"
+            >
+              <path
+                d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"
+              ></path>
+            </svg>
+          </h1>
+
+          <form class="form">
+            <div class="single-input">
+              <input
+                type="number"
+                placeholder="Ex: 100"
+                class="input inputJS"
+                id="qtd"
+                min="{0}"
+                required
+              />
+            </div>
+          </form>
+        </div>
+        <div class="item-grid3">
+          <h1 class="fw-semibold fs-3">Preview do item</h1>
+          <div class="preview-do-item">
+            <img
+              src="../assets/img/924514.png"
+              width="130"
+              height="130"
+              class="preview-img"
+            />
+            <div class="div-text-preview">
+              <div class="div-preco-preview">
+                <h6 class="preview-nome">Café Preto</h6>
+              </div>
+              <div class="div-preco-preview">
+                <h6>R$:</h6>
+                <h6 class="preview-preco">10,0</h6>
+              </div>
+              <div class="div-preco-preview">
+                <h6>Quantidade:</h6>
+                <h6 class="preview-qtd">100</h6>
+              </div>
+            </div>
+          </div>
+          <button
+            id="btn-adicionar"
+            class="button-de-add-produto"
+            type="button"
+          >
+            <h5>Adicionar</h5>
+          </button>
+          <h5 class="button-cancelar">Cancelar</h5>
+        </div>
+      </div>
+      <div id="liveAlertPlaceholder" style="padding: 0 3rem"></div>
+    </main>
+    <script src="../assets/javascript/script.js"></script>
+    <script src="../assets/javascript/CRUD-BBD.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
