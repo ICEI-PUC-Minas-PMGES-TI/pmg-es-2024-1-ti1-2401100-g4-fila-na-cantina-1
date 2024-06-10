@@ -2,6 +2,7 @@ const loginEmpresa = document.getElementById('section-login-empresa');
 const loginCliente = document.getElementById('section-login-cliente');
 const cadastroCliente = document.getElementById('section-cadastro-cliente');
 const cadastroEmpresa = document.getElementById('section-cadastro-empresa');
+const esqSenha = document.getElementById('section-esqSenha');
 const inputFile = document.getElementById("input-file");
 
 function alternarLoginEmpresa() {
@@ -9,6 +10,7 @@ function alternarLoginEmpresa() {
     cadastroCliente.style.display = 'none'
     loginCliente.style.display = 'none';
     loginEmpresa.style.display = 'block';
+    esqSenha.style.display = 'none';
 }
 
 function alternarLoginCliente() {
@@ -16,6 +18,7 @@ function alternarLoginCliente() {
     loginEmpresa.style.display = 'none';
     cadastroEmpresa.style.display = 'none'
     cadastroCliente.style.display = 'none'
+    esqSenha.style.display = 'none';
 }
 
 function alternarCadastroCliente() {
@@ -23,12 +26,22 @@ function alternarCadastroCliente() {
     loginEmpresa.style.display = 'none';
     cadastroEmpresa.style.display = 'none'
     cadastroCliente.style.display = 'block'
+    esqSenha.style.display = 'none';
 }
 
 function alternarCadastroEmpresa() {
     loginCliente.style.display = 'none';
     loginEmpresa.style.display = 'none';
     cadastroEmpresa.style.display = 'block'
+    cadastroCliente.style.display = 'none'
+    esqSenha.style.display = 'none';
+}
+
+function alternarEsqueceuSenha() {
+    esqSenha.style.display = 'flex';
+    loginCliente.style.display = 'none';
+    loginEmpresa.style.display = 'none';
+    cadastroEmpresa.style.display = 'none'
     cadastroCliente.style.display = 'none'
 }
 
