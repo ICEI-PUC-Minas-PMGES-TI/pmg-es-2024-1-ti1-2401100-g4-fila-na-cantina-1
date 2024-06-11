@@ -1,0 +1,40 @@
+{
+    "Empresa":[
+      {"id":1,
+      "logomarca": "https://ultracoffee.com.br/wp-content/uploads/2022/08/logo-ultra-white.png"
+        }
+    ],
+    "comida": [
+      {
+        "id": 1,
+        "nome": "coxinha",
+        "quantidade": "5",
+        "preco": 19.90,
+        "image_url": "https://panattos.com.br/uploads/produtos/2017/03/coxinha-de-frango-com-requeijao-mini-congelada.jpg"
+      },
+      {
+        "id": 2,
+        "nome": "Empada",
+        "quantidade": "5",
+        "preco": 29.99,
+        "image_url": "https://emporiokaminski.com.br/wp-content/uploads/2021/06/Mini-Empada-Frango-1-600x600.jpg"
+      }
+    ],
+
+    "bebidas": [
+      {
+        "id": 1,
+        "nome": "tekila",
+        "quantidade": "5",
+        "preco": 20,
+        "image_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/220px-A_small_cup_of_coffee.JPG"
+      },
+      {
+        "id": 2,
+        "nome": "capuccino",
+        "quantidade": "5",
+        "preco": 29.99,
+        "image_url": "https://www.bongusto.ind.br/wp-content/uploads/2023/06/FRAPE-CAPUCCINO14.jpg"
+      }
+    ]
+  }
