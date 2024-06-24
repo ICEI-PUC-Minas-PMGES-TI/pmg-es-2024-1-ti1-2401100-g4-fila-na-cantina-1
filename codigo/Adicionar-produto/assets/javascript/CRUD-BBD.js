@@ -137,9 +137,96 @@ const createCardBebidas = (produto) => {
                   <h6 class="preview-qtd">${produto.qtd}</h6>
                 </div>
               </div>
-              <button class="gerenciar-btn">Gerenciar Item</button>
+              <a href="/pmg-es-2024-1-ti1-2401100-g4-fila-na-cantina-1/codigo/Adicionar-produto/views/gerenciar-produto.html" class="gerenciar-btn">Gerenciar Item</a>
               </div>
               
     `;
   cardComidas.appendChild(newCard);
 };
+
+function getProduto() {
+  const params = new URLSearchParams(window.location.search);
+
+  const id = params.get("id");
+
+  const listaDeProdutos = getLocalStorage();
+
+  const produto = listaDeProdutos[id];
+
+  console.log("produto", produto);
+
+  const imgAtual = document.getElementById("img-atual-gerenciar");
+
+  imgAtual.src = produto.img;
+
+  const nomeAtual = document.getElementById("nome-atual-gerenciar");
+
+  nomeAtual.innerText = `Nome atual: ${produto.nome}`;
+
+  const qtdAtual = document.getElementById("qtd-atual-gerenciar");
+
+  qtdAtual.innerText = `Quantidade: ${produto.qtd}`;
+
+  const precoAtual = document.getElementById("preco-atual-gerenciar");
+
+  precoAtual.innerText = `R$: ${produto.preco}`;
+}
+
+document.getElementById("btn-voltar")?.addEventListener("click", () => {
+  window.location.href = "/codigo/Adicionar-produto/views/lista-produtos.html";
+});
+
+document.getElementById("btn-deletar")?.addEventListener("click", () => {
+  const params = new URLSearchParams(window.location.search);
+
+  const id = params.get("id");
+
+  const listaDeProdutos = getLocalStorage();
+
+  const produto = listaDeProdutos[id];
+  deleteProduto(id);
+  window.location.href = "/codigo/Adicionar-produto/views/lista-produtos.html";
+});
+getBase64(inputFileGerenciar.files[0]);
+
+async function updateProd() {
+  const params = new URLSearchParams(window.location.search);
+
+  const id = params.get("id");
+
+  const inputFileGerenciar = document.getElementById("input-file");
+
+  console.log(document.getElementById("nome-gerenciar").value);
+  const inputNomeProdutoGerenciar =
+    document.getElementById("nome-gerenciar").value;
+  const inputPrecoProdutoGerenciar =
+    document.getElementById("preco-gerenciar").value;
+  const inputQtdProdutoGerenciar =
+    document.getElementById("qtd-gerenciar").value;
+  const fileBase64ValueGerenciar =
+    inputFileGerenciar.files.length > 0 &&
+    (await getBase64(inputFileGerenciar.files[0]));
+
+  if (
+    !inputNomeProdutoGerenciar ||
+    !inputPrecoProdutoGerenciar ||
+    !inputQtdProdutoGerenciar
+  ) {
+    appendAlert("Todos os campos são obrigatorios", "danger");
+  }
+
+  const submitObjGerenciar = {
+    img: fileBase64ValueGerenciar,
+    nome: inputNomeProdutoGerenciar,
+    preco: inputPrecoProdutoGerenciar,
+    qtd: inputQtdProdutoGerenciar,
+  };
+
+  // const productList = getLocalStorage();
+  // productList.push(submitObj);
+
+  //setLocalStorage(productList);
+
+  updateProduto(id, submitObjGerenciar);
+  window.location.href = "/codigo/Adicionar-produto/views/lista-produtos.html";
+}

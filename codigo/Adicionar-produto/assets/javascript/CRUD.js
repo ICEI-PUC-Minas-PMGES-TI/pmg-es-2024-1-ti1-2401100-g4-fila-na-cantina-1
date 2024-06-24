@@ -68,7 +68,8 @@ const criarProduto = async () => {
   productList.push(submitObj);
 
   setLocalStorage(productList);
-  window.location.href = "/codigo/Adicionar-produto/views/lista-produtos.html";
+  window.location.href =
+    "/pmg-es-2024-1-ti1-2401100-g4-fila-na-cantina-1/codigo/Adicionar-produto/views/lista-produtos.html";
 };
 
 const alertPlaceholder = document.getElementById("liveAlertPlaceholder");
@@ -139,7 +140,7 @@ const createCard = (produto, index) => {
                   <h6 class="preview-qtd">${produto.qtd}</h6>
                 </div>
               </div>
-              <a href="/codigo/Adicionar-produto/views/gerenciar-produto.html?id=${index}" class="gerenciar-btn">Gerenciar Item</a>
+              <a href="/pmg-es-2024-1-ti1-2401100-g4-fila-na-cantina-1/codigo/Adicionar-produto/views/gerenciar-produto.html?id=${index}" class="gerenciar-btn">Gerenciar Item</a>
               </div>
               
     `;
@@ -175,7 +176,8 @@ function getProduto() {
 }
 
 document.getElementById("btn-voltar")?.addEventListener("click", () => {
-  window.location.href = "/codigo/Adicionar-produto/views/lista-produtos.html";
+  window.location.href =
+    "/pmg-es-2024-1-ti1-2401100-g4-fila-na-cantina-1/codigo/Adicionar-produto/views/lista-produtos.html";
 });
 
 document.getElementById("btn-deletar")?.addEventListener("click", () => {
@@ -187,55 +189,50 @@ document.getElementById("btn-deletar")?.addEventListener("click", () => {
 
   const produto = listaDeProdutos[id];
   deleteProduto(id);
-  window.location.href = "/codigo/Adicionar-produto/views/lista-produtos.html";
-}); /*getBase64(inputFileGerenciar.files[0]);
-/*
-document
-  .getElementById("btn-finalizar-gerenciar")
-  ?.addEventListener("click", () => {
-    const params = new URLSearchParams(window.location.search);
+  window.location.href =
+    "/pmg-es-2024-1-ti1-2401100-g4-fila-na-cantina-1/codigo/Adicionar-produto/views/lista-produtos.html";
+});
+getBase64(inputFileGerenciar.files[0]);
 
-    const id = params.get("id");
+async function updateProd() {
+  const params = new URLSearchParams(window.location.search);
 
-    const inputFileGerenciar = document.getElementById("input-file-Gerenciar");
-    const inputEDestaqueGerenciar = document.getElementById(
-      "flexCheckDefault-Gerenciar"
-    );
-    const inputNomeProdutoGerenciar = document.getElementById("nome-Gerenciar");
-    const inputPrecoProdutoGerenciar =
-      document.getElementById("preco-Gerenciar");
-    const inputQtdProdutoGerenciar = document.getElementById("qtd-Gerenciar");
-    const fileBase64ValueGerenciar =
-      inputFileGerenciar.files.length > 0 &&
-      /*await*/
-/*const inputEDestaqueValueGerenciar = inputEDestaqueGerenciar.checked;
-    const inputNomeProdutoValueGerenciar = inputNomeProdutoGerenciar.value;
-    const inputPrecoProdutoValueGerenciar = inputPrecoProdutoGerenciar.value;
-    const inputQtdProdutoValueGerenciar = inputQtdProdutoGerenciar.value;
+  const id = params.get("id");
 
-    if (
-      !fileBase64Value ||
-      !inputNomeProdutoValue ||
-      !inputPrecoProdutoValue ||
-      !inputQtdProdutoValue
-    ) {
-      appendAlert("Todos os campos são obrigatorios", "danger");
-    }
+  const inputFileGerenciar = document.getElementById("input-file");
 
-    const submitObjGerenciar = {
-      eDestaque: inputEDestaqueValueGerenciar,
-      img: fileBase64ValueGerenciar,
-      nome: inputNomeProdutoValueGerenciar,
-      preco: inputPrecoProdutoValueGerenciar,
-      qtd: inputQtdProdutoValueGerenciar,
-    };
+  console.log(document.getElementById("nome-gerenciar").value);
+  const inputNomeProdutoGerenciar =
+    document.getElementById("nome-gerenciar").value;
+  const inputPrecoProdutoGerenciar =
+    document.getElementById("preco-gerenciar").value;
+  const inputQtdProdutoGerenciar =
+    document.getElementById("qtd-gerenciar").value;
+  const fileBase64ValueGerenciar =
+    inputFileGerenciar.files.length > 0 &&
+    (await getBase64(inputFileGerenciar.files[0]));
 
-    const productList = getLocalStorage();
-    productList.push(submitObj);
+  if (
+    !inputNomeProdutoGerenciar ||
+    !inputPrecoProdutoGerenciar ||
+    !inputQtdProdutoGerenciar
+  ) {
+    appendAlert("Todos os campos são obrigatorios", "danger");
+  }
 
-    setLocalStorage(productList);
+  const submitObjGerenciar = {
+    img: fileBase64ValueGerenciar,
+    nome: inputNomeProdutoGerenciar,
+    preco: inputPrecoProdutoGerenciar,
+    qtd: inputQtdProdutoGerenciar,
+  };
 
-    updateProduto(id, produto);
-    window.location.href =
-      "/codigo/Adicionar-produto/views/lista-produtos.html";
-  });*/
+  // const productList = getLocalStorage();
+  // productList.push(submitObj);
+
+  //setLocalStorage(productList);
+
+  updateProduto(id, submitObjGerenciar);
+  window.location.href =
+    "/pmg-es-2024-1-ti1-2401100-g4-fila-na-cantina-1/codigo/Adicionar-produto/views/lista-produtos.html";
+}

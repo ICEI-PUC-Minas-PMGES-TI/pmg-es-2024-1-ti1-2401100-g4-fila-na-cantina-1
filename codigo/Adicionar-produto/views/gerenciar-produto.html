@@ -133,12 +133,7 @@
           <div class="img-alterar">
             <div class="hero">
               <label for="input-file" id="drop-area">
-                <input
-                  type="file"
-                  accept="image/*"
-                  id="input-file-Gerenciar"
-                  hidden
-                />
+                <input type="file" accept="image/*" id="input-file" hidden />
                 <div id="img-view">
                   <img src="../assets/img/icon-removebg-preview.png" />
                 </div>
@@ -270,6 +265,7 @@
               class="button-de-finalizar"
               type="button"
               id="btn-finalizar-gerenciar"
+              onclick="updateProd()"
             >
               <h5>Finalizar</h5>
             </button>
