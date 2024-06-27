@@ -63,25 +63,25 @@ Engenharia de Software
 
 ## Objetivos
 
-> O objetivo principal do nosso projeto é integrar e aproximar a cantina dos 
-> alunos de forma que a compra e retirada dos lanches aconteça de maneira hábil
-> e suficiente para o seu consumo. Assim, nos comprometemos com uma gestão
-> eficiente do tempo de consumo e de demanda das filas, tornando-as menos
-> demoradas e cheias.
+ O objetivo principal do nosso projeto é integrar e aproximar a cantina dos 
+ alunos de forma que a compra e retirada dos lanches aconteça de maneira hábil
+ e suficiente para o seu consumo. Assim, nos comprometemos com uma gestão
+ eficiente do tempo de consumo e de demanda das filas, tornando-as menos
+ demoradas e cheias.
 
 ## Justificativa
 
-> De acordo com entrevistas realizadas com alunos e por experiência dos
-> integrantes do grupos, percebemos que demoramos muito tempo para realizar
-> a compra de alimentos nos estabelecimentos da PUC-Minas, assim não restando
-> tempo suficiente para que possamos comer devagar e saborear o alimento.
-> Por isso decidimos criar um software para que as compras possam ser feitas
-> antes mesmo de chegar ao campus e podendo pegar o alimento quando quisermos.
+ De acordo com entrevistas realizadas com alunos e por experiência dos
+ integrantes do grupos, percebemos que demoramos muito tempo para realizar
+ a compra de alimentos nos estabelecimentos da PUC-Minas, assim não restando
+ tempo suficiente para que possamos comer devagar e saborear o alimento.
+ Por isso decidimos criar um software para que as compras possam ser feitas
+ antes mesmo de chegar ao campus e podendo pegar o alimento quando quisermos.
 
 ## Público-Alvo
 
-> O projeto não possui um público específico, podendo variar entre alunos,
-> funcionários e até mesmo visitantes da PUC-Minas.
+ O projeto não possui um público específico, podendo variar entre alunos,
+ funcionários e até mesmo visitantes da PUC-Minas.
  
 # Especificações do Projeto
 
@@ -117,9 +117,9 @@ As personas identificadas no nosso projeto conta com uma maioria de estudantes q
 > 
 > **Exemplo de Persona**
 > 
-> ![Exemplo de Persona](imaages/../images/persona.png)
-> 
-> Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
+ ![Exemplo de Persona](imaages/../images/persona.png)
+ 
+ Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
 
 
 ## Histórias de Usuários
@@ -180,9 +180,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
 > solução. Classifique esses requisitos em dois grupos:
 >
-> - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
+ - [Requisitos Funcionais (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
+   correspondem a uma funcionalidade que deve estar presente na
+   plataforma (ex: cadastro de usuário).
 >
 > - [Requisitos Não Funcionais (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
 >   correspondem a uma característica técnica, seja de usabilidade,
