@@ -78,7 +78,7 @@ Engenharia de Software
 
 ## Público-Alvo
 
- O projeto não possui um público específico, podendo variar entre alunos,
+ O nosso publico alvo são alunos,
  funcionários e até mesmo visitantes da PUC-Minas.
  
 # Especificações do Projeto
@@ -160,12 +160,7 @@ O nosso projeto de interface inicial foi realizado no Figma de forma que a maior
   - Uma tela de histórico de pedidos; 
   - Uma tela de efetuação do pagamento dos produtos selecionados no carrinho e o envio do QR Code via email.
     
-Link do Figma: https://www.figma.com/file/LleNCpbdiaeYrSqSiKq2N7/Fila-da-Cantina?type=design&node-id=0%3A1&mode=design&t=KMK2qAyaAtvKB9Qh-1
-
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
+![Telasa](images/FiladaCantinaPrincipaisTelas.png)
 
 ## User Flow
 
