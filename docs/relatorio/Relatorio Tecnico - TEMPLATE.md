@@ -183,7 +183,7 @@ https://app.flowmapp.com/share/projects/63ff843f-1931-497a-abc0-81384ff451e8/use
 >
 > **Exemplo**:
 > 
-> ![Exemplo de UserFlow](images/userflow.jpg)
+> ![Exemplo de UserFlow](images/docs/relatorio/images/Fila da Cantina UserFlow.png)
 
 
 ## Wireframes
