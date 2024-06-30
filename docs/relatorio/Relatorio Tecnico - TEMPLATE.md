@@ -202,12 +202,31 @@ O grupo colaborou no projeto através de commits regulares em branches separadas
 
 
 # Projeto da Solução
-
-......  COLOQUE AQUI O SEU TEXTO ......
+Deste modo, o problema identificado está no tempo desperdiçado em filas dentro das instituições da PUC-Minas e todo o incômodo gerado. De acordo com a solução aqui apresentada, o projeto tem a finalidade de integrar as cantinas aos alunos, podendo escolher seus lanches alguns minutos antes de sair da sala de aula. Dessa maneira, pretendemos garantir uma administração eficiente do tempo e da quantidade de pessoas nas filas, evitando que as filas ocorram e que, se ocorrerem, sejam demasiado demoradas.
 
 ## Tecnologias Utilizadas
 
-......  COLOQUE AQUI O SEU TEXTO ......
+As tecnologias que solucionarão o problema acima incluirão: 
+
+
+
+HTML (HyperText Markup Language): estruturação do conteúdo da aplicação web 
+
+CSS (Cascading Style Sheets): Estilização da aplicação para torná-la mais atraente 
+
+JavaScript(JS): adição de interatividade e funcionalidade dinâmica 
+
+Bootstrap: framework CSS para desenvolvimento de interfaces responsivas na web móveis primeiro 
+
+Firebase: serviços de backend para autenticação, banco de dados, hospedagem e função em nuvem 
+
+Firebase Authentication: gerenciamento de autenticação do usuário 
+
+Firebase Firestore: banco de dados em tempo real do NoSQL 
+
+Firebase Hosting: hospedagem da aplicação web 
+
+Firebase Cloud Functions: execução de código de back-end em resposta a eventos. 
 
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
 > problema, ou seja, implementar a sua solução. Liste todas as
@@ -244,8 +263,277 @@ O grupo colaborou no projeto através de commits regulares em branches separadas
 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Para avaliar a aplicação desenvolvida, foram realizados testes detalhados que cobrem os principais cenários de uso, garantindo que todos os requisitos funcionais e não funcionais fossem satisfeitos. Abaixo, apresentamos os cenários de testes utilizados, demonstrando a conformidade com os requisitos estabelecidos.  
 
+ 
+
+Cenário de Teste 1: Cadastro de Usuário  
+
+ 
+
+Objetivo: Verificar se o sistema permite que novos usuários se cadastrem corretamente.  
+
+ 
+
+Requisitos Atendidos: RF-002 (Cadastramento do estabelecimento e aluno)  
+
+ 
+
+Passos do Teste:  
+
+ 
+
+Acessar a página de cadastro.  
+
+ 
+
+Preencher o formulário com informações válidas (nome, e-mail, senha).  
+
+ 
+
+Submeter o formulário.  
+
+ 
+
+Verificar se o usuário é redirecionado para a página inicial e se uma mensagem de sucesso é exibida.  
+
+ 
+
+Resultado Esperado: Usuário cadastrado com sucesso e redirecionado para a página inicial.  
+
+ 
+
+Cenário de Teste 2: Login de Usuário  
+
+ 
+
+Objetivo: Verificar se o sistema autentica corretamente os usuários cadastrados.  
+
+ 
+
+Requisitos Atendidos: RF-002 (Cadastramento do estabelecimento e aluno)  
+
+ 
+
+Passos do Teste:  
+
+ 
+
+Acessar a página de login.  
+
+ 
+
+Preencher o formulário de login com e-mail e senha válidos.  
+
+ 
+
+Submeter o formulário.  
+
+ 
+
+Verificar se o usuário é redirecionado para a página de seleção de estabelecimentos.  
+
+ 
+
+Resultado Esperado: Usuário autenticado com sucesso e redirecionado para a página de seleção de estabelecimentos.  
+
+ 
+
+Cenário de Teste 3: Visualização de Estabelecimentos  
+
+ 
+
+Objetivo: Verificar se o usuário pode visualizar a lista de estabelecimentos cadastrados.  
+
+ 
+
+Requisitos Atendidos: RF-003 (Variedade de estabelecimentos)  
+
+ 
+
+Passos do Teste:  
+
+ 
+
+Acessar a página de seleção de estabelecimentos.  
+
+ 
+
+Verificar se a lista de estabelecimentos é exibida corretamente.  
+
+ 
+
+Selecionar um estabelecimento e verificar se os produtos são exibidos.  
+
+ 
+
+Resultado Esperado: Lista de estabelecimentos exibida corretamente e produtos visíveis após a seleção.  
+
+ 
+
+Cenário de Teste 4: Adição de Produtos ao Carrinho  
+
+ 
+
+Objetivo: Verificar se o usuário pode adicionar produtos ao carrinho de compras.  
+
+ 
+
+Requisitos Atendidos: RF-004 (Sistema de catálogo), RF-006 (Adicionar/remover lanches e bebidas pelo estabelecimento)  
+
+ 
+
+Passos do Teste:  
+
+ 
+
+Navegar até a página de produtos de um estabelecimento.  
+
+ 
+
+Selecionar um produto e adicionar ao carrinho.  
+
+ 
+
+Verificar se o produto aparece no carrinho.  
+
+ 
+
+Resultado Esperado: Produto adicionado ao carrinho com sucesso.  
+
+ 
+
+Cenário de Teste 5: Finalização de Compra  
+
+ 
+
+Objetivo: Verificar se o usuário pode finalizar a compra e receber um QR Code.  
+
+ 
+
+Requisitos Atendidos: RF-008 (Cadastro da forma de pagamento pelo aluno), RF-009 (QR Code Gerado para o aluno)  
+
+ 
+
+Passos do Teste:  
+
+ 
+
+Acessar o carrinho de compras.  
+
+ 
+
+Selecionar a forma de pagamento e completar o pagamento.  
+
+ 
+
+Verificar se o QR Code é gerado e exibido.  
+
+ 
+
+Resultado Esperado: Compra finalizada e QR Code gerado corretamente.  
+
+ 
+
+Cenário de Teste 6: Cadastro de Estabelecimento  
+
+ 
+
+Objetivo: Verificar se novos estabelecimentos podem ser cadastrados corretamente.  
+
+ 
+
+Requisitos Atendidos: RF-002 (Cadastramento do estabelecimento e aluno)  
+
+ 
+
+Passos do Teste:  
+
+ 
+
+Acessar a página de cadastro de estabelecimento.  
+
+ 
+
+Preencher o formulário com informações válidas (nome, endereço, categoria).  
+
+ 
+
+Submeter o formulário.  
+
+ 
+
+Verificar se o estabelecimento é adicionado à lista de estabelecimentos.  
+
+ 
+
+Resultado Esperado: Estabelecimento cadastrado com sucesso e exibido na lista.  
+
+ 
+
+Cenário de Teste 7: Atualização de Catálogo de Produtos  
+
+ 
+
+Objetivo: Verificar se os estabelecimentos podem adicionar e atualizar seus produtos.  
+
+ 
+
+Requisitos Atendidos: RF-005 (Cadastramento de lanches pelo estabelecimento), RF-007 (Atualização de preços pelo estabelecimento)  
+
+ 
+
+Passos do Teste:  
+
+ 
+
+Acessar a página de gerenciamento de produtos do estabelecimento.  
+
+ 
+
+Adicionar um novo produto ou atualizar um produto existente.  
+
+ 
+
+Verificar se as alterações são refletidas na lista de produtos.  
+
+ 
+
+Resultado Esperado: Produtos adicionados ou atualizados com sucesso.  
+
+ 
+
+Cenário de Teste 8: Sistema de Feedback  
+
+ 
+
+Objetivo: Verificar se os usuários podem fornecer feedback sobre os estabelecimentos e vice-versa.  
+
+ 
+
+Requisitos Atendidos: RF-010 (Sistema de Feedback Estabelecimento/Aluno)  
+
+ 
+
+Passos do Teste:  
+
+ 
+
+Acessar a página de feedback.  
+
+ 
+
+Preencher e submeter o formulário de feedback.  
+
+ 
+
+Verificar se o feedback é registrado e exibido corretamente.  
+
+ 
+
+Resultado Esperado: Feedback registrado e exibido corretamente. 
+
+ 
 > Enumere quais cenários de testes foram selecionados para teste. Neste
 > tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
 > de usuários que foi escolhido para participar do teste e as
