@@ -123,7 +123,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-006| Adicionar/remover lanches e bebidas pelo estabelecimento | ALTA |
 |RF-007| Atualização de preços pelo estabelecimento | ALTA |
 |RF-008| Cadastro da forma de pagamento pelo aluno | ALTA |
-|RF-009| QR Code Gerado para o aluno | ALTA |
+|RF-009| Gerar um QR Code para o aluno após a finalização da compra | ALTA |
 |RF-010| Sistema de Feedback Estabelecimento/Aluno | MÉDIA |
 |RF-011| Histórico de pedidos daquele lanchonete | MÉDIA |
 |RF-012| Sistema de filtragem dos alimentos (preço, demanda, etc.) | MÉDIA |
@@ -154,7 +154,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 # Projeto de Interface
 
 O nosso projeto de interface inicial foi realizado no Figma de forma que a maioria dos requisitos funcionais fossem concebidos. No link abaixo, podemos observar uma tela inicial de login e cadastro para clientes e estabelecimentos da PUC Minas. Além disso, o nosso projeto de interface conta com: 
-  - Uma página inicial onde os estabelecimentos colocam os seus produtos de destaque á mostra para os consumidores;
+  - Uma página inicial onde os estabelecimentos PUC Minas colocam os seus produtos de destaque á mostra para os consumidores;
   - Uma tela para seleção do estabelecimento PUC Minas e nele a visualização de seus produtos (comidas, bebidas, balas, chocolates, etc.);
   - Uma tela de histórico de pedidos; 
   - Uma tela de efetuação do pagamento dos produtos selecionados no carrinho e o envio do QR Code via email.
@@ -245,21 +245,9 @@ Para avaliar a aplicação desenvolvida, foram realizados testes detalhados que 
  
 
 Cenário de Teste 1: Cadastro de Usuário  
-
- 
-
-Objetivo: Verificar se o sistema permite que novos usuários se cadastrem corretamente.  
-
- 
-
-Requisitos Atendidos: RF-002 (Cadastramento do estabelecimento e aluno)  
-
- 
-
-Passos do Teste:  
-
- 
-
+- Objetivo: Verificar se o sistema permite que novos usuários se cadastrem corretamente.  
+- Requisitos Atendidos: RF-002 (Cadastramento do estabelecimento e aluno)  
+- Passos do Teste:  
 Acessar a página de cadastro.  
 
  
