@@ -244,27 +244,27 @@ Para avaliar a aplicação desenvolvida, foram realizados testes detalhados que 
 
  
 
-Cenário de Teste 1: Cadastro de Usuário  
-- Objetivo: Verificar se o sistema permite que novos usuários se cadastrem corretamente.  
-- Requisitos Atendidos: RF-002 (Cadastramento do estabelecimento e aluno)  
-- Passos do Teste:  
+**Cenário de Teste 1: Cadastro de Usuário** 
+- **Objetivo:** Verificar se o sistema permite que novos usuários se cadastrem corretamente.  
+- **Requisitos Atendidos:** RF-002 (Cadastramento do estabelecimento e aluno)  
+- **Passos do Teste:**  
     > Acessar a página de cadastro.
     > Preencher o formulário com informações válidas (nome, e-mail, senha).  
     > Submeter o formulário.  
     > Verificar se o usuário é redirecionado para a página inicial e se uma mensagem de sucesso é exibida.  
-- Resultado Esperado: Usuário cadastrado com sucesso e redirecionado para a página inicial.  
+- **Resultado Esperado:** Usuário cadastrado com sucesso e redirecionado para a página inicial.  
 
-Cenário de Teste 2: Login de Usuário  
-- Objetivo: Verificar se o sistema autentica corretamente os usuários cadastrados.  
-- Requisitos Atendidos: RF-002 (Cadastramento do estabelecimento e aluno).
-- Passos do Teste:  
+**Cenário de Teste 2: Login de Usuário** 
+- **Objetivo:** Verificar se o sistema autentica corretamente os usuários cadastrados.  
+- **Requisitos Atendidos:** RF-002 (Cadastramento do estabelecimento e aluno).
+- **Passos do Teste:**  
    > Acessar a página de login.  
    > Preencher o formulário de login com e-mail e senha válidos.  
    > Submeter o formulário.  
    > Verificar se o usuário é redirecionado para a página de seleção de estabelecimentos.   
-- Resultado Esperado: Usuário autenticado com sucesso e redirecionado para a página de seleção de estabelecimentos.  
+- **Resultado Esperado:** Usuário autenticado com sucesso e redirecionado para a página de seleção de estabelecimentos.  
 
-- **Cenário de Teste 3: Visualização de Estabelecimentos**
+  **Cenário de Teste 3: Visualização de Estabelecimentos**
   - **Objetivo:** Verificar se o usuário pode visualizar a lista de estabelecimentos cadastrados.
   - **Requisitos Atendidos:** RF-003 (Variedade de estabelecimentos)
   - **Passos do Teste:**
@@ -273,7 +273,7 @@ Cenário de Teste 2: Login de Usuário
     > Selecionar um estabelecimento e verificar se os produtos são exibidos.
   - **Resultado Esperado:** Lista de estabelecimentos exibida corretamente e produtos visíveis após a seleção.
 
-- **Cenário de Teste 4: Adição de Produtos ao Carrinho**
+  **Cenário de Teste 4: Adição de Produtos ao Carrinho**
   - **Objetivo:** Verificar se o usuário pode adicionar produtos ao carrinho de compras.
   - **Requisitos Atendidos:** RF-004 (Sistema de catálogo), RF-006 (Adicionar/remover lanches e bebidas pelo estabelecimento)
   - **Passos do Teste:**
@@ -282,7 +282,7 @@ Cenário de Teste 2: Login de Usuário
     > Verificar se o produto aparece no carrinho.
   - **Resultado Esperado:** Produto adicionado ao carrinho com sucesso.
 
-- **Cenário de Teste 5: Finalização de Compra**
+  **Cenário de Teste 5: Finalização de Compra**
   - **Objetivo:** Verificar se o usuário pode finalizar a compra e receber um QR Code.
   - **Requisitos Atendidos:** RF-008 (Cadastro da forma de pagamento pelo aluno), RF-009 (QR Code Gerado para o aluno)
   - **Passos do Teste:**
@@ -291,7 +291,7 @@ Cenário de Teste 2: Login de Usuário
     > Verificar se o QR Code é gerado e exibido.
   - **Resultado Esperado:** Compra finalizada e QR Code gerado corretamente.
 
-- **Cenário de Teste 6: Cadastro de Estabelecimento**
+  **Cenário de Teste 6: Cadastro de Estabelecimento**
   - **Objetivo:** Verificar se novos estabelecimentos podem ser cadastrados corretamente.
   - **Requisitos Atendidos:** RF-002 (Cadastramento do estabelecimento e aluno)
   - **Passos do Teste:**
@@ -301,7 +301,7 @@ Cenário de Teste 2: Login de Usuário
     > Verificar se o estabelecimento é adicionado à lista de estabelecimentos.
   - **Resultado Esperado:** Estabelecimento cadastrado com sucesso e exibido na lista.
 
-- **Cenário de Teste 7: Atualização de Catálogo de Produtos**
+  **Cenário de Teste 7: Atualização de Catálogo de Produtos**
   - **Objetivo:** Verificar se os estabelecimentos podem adicionar e atualizar seus produtos.
   - **Requisitos Atendidos:** RF-005 (Cadastramento de lanches pelo estabelecimento), RF-007 (Atualização de preços pelo estabelecimento)
   - **Passos do Teste:**
