@@ -479,9 +479,7 @@ Verificar se as alterações são refletidas na lista de produtos.
 Resultado Esperado: Produtos adicionados ou atualizados com sucesso.  
 
 
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
+
 
 ## Plano de Testes
 
@@ -571,10 +569,6 @@ Testes de Carga: Expandir os testes de carga para simular condições de uso mai
 
 Conclusão: Os resultados dos testes demonstram que a aplicação está alinhada com os requisitos funcionais estabelecidos. As melhorias identificadas serão abordadas nas próximas iterações do desenvolvimento, visando garantir uma experiência ainda mais satisfatória e robusta para os usuários finais. 
 
-> Discorra sobre os resultados do teste. Ressaltando pontos fortes e
-> fracos identificados na solução. Comente como o grupo pretende atacar
-> esses pontos nas próximas iterações. Apresente as falhas detectadas e
-> as melhorias geradas a partir dos resultados obtidos nos testes.
 
 
 # Referências
