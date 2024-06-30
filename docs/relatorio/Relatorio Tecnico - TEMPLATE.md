@@ -218,15 +218,13 @@ JavaScript(JS): adição de interatividade e funcionalidade dinâmica
 
 Bootstrap: framework CSS para desenvolvimento de interfaces responsivas na web móveis primeiro 
 
-Firebase: serviços de backend para autenticação, banco de dados, hospedagem e função em nuvem 
+Firebase: serviços de backend para autenticação, banco de dados, hospedagem e função em nuvem
 
 Firebase Authentication: gerenciamento de autenticação do usuário 
 
 Firebase Firestore: banco de dados em tempo real do NoSQL 
 
 Firebase Hosting: hospedagem da aplicação web 
-
-Firebase Cloud Functions: execução de código de back-end em resposta a eventos. 
 
 > Descreva aqui qual(is) tecnologias você vai usar para resolver o seu
 > problema, ou seja, implementar a sua solução. Liste todas as
