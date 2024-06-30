@@ -208,8 +208,6 @@ Deste modo, o problema identificado está no tempo desperdiçado em filas dentro
 
 As tecnologias que solucionarão o problema acima incluirão: 
 
-
-
 HTML (HyperText Markup Language): estruturação do conteúdo da aplicação web 
 
 CSS (Cascading Style Sheets): Estilização da aplicação para torná-la mais atraente 
@@ -228,7 +226,7 @@ Firebase Hosting: hospedagem da aplicação web
 
 ## Arquitetura da solução
 
-......  COLOQUE AQUI O SEU TEXTO E O DIAGRAMA DE ARQUITETURA .......
+ ![Exemplo de Arquitetura](images/DiagramaArquitetura.jpeg)
 
 > Inclua um diagrama da solução e descreva os módulos e as tecnologias
 > que fazem parte da solução. Discorra sobre o diagrama.
@@ -399,8 +397,6 @@ Aprimoramento da Interface: Implementar feedback visual mais robusto para garant
 Testes de Carga: Expandir os testes de carga para simular condições de uso mais intensas e identificar possíveis pontos fracos antes da implantação. 
 
 Conclusão: Os resultados dos testes demonstram que a aplicação está alinhada com os requisitos funcionais estabelecidos. As melhorias identificadas serão abordadas nas próximas iterações do desenvolvimento, visando garantir uma experiência ainda mais satisfatória e robusta para os usuários finais. 
-
-
 
 # Referências
 
