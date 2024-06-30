@@ -264,168 +264,51 @@ Cenário de Teste 2: Login de Usuário
    > Verificar se o usuário é redirecionado para a página de seleção de estabelecimentos.   
 - Resultado Esperado: Usuário autenticado com sucesso e redirecionado para a página de seleção de estabelecimentos.  
 
-Cenário de Teste 3: Visualização de Estabelecimentos  
-
- 
-
-Objetivo: Verificar se o usuário pode visualizar a lista de estabelecimentos cadastrados.  
-
- 
-
-Requisitos Atendidos: RF-003 (Variedade de estabelecimentos)  
-
- 
-
-Passos do Teste:  
-
- 
-
-Acessar a página de seleção de estabelecimentos.  
-
- 
-
-Verificar se a lista de estabelecimentos é exibida corretamente.  
-
- 
-
-Selecionar um estabelecimento e verificar se os produtos são exibidos.  
-
- 
-
-Resultado Esperado: Lista de estabelecimentos exibida corretamente e produtos visíveis após a seleção.  
-
- 
-
-Cenário de Teste 4: Adição de Produtos ao Carrinho  
-
- 
-
-Objetivo: Verificar se o usuário pode adicionar produtos ao carrinho de compras.  
-
- 
-
-Requisitos Atendidos: RF-004 (Sistema de catálogo), RF-006 (Adicionar/remover lanches e bebidas pelo estabelecimento)  
-
- 
-
-Passos do Teste:  
-
- 
-
-Navegar até a página de produtos de um estabelecimento.  
-
- 
-
-Selecionar um produto e adicionar ao carrinho.  
-
- 
-
-Verificar se o produto aparece no carrinho.  
-
- 
-
-Resultado Esperado: Produto adicionado ao carrinho com sucesso.  
-
- 
-
-Cenário de Teste 5: Finalização de Compra  
-
- 
-
-Objetivo: Verificar se o usuário pode finalizar a compra e receber um QR Code.  
-
- 
-
-Requisitos Atendidos: RF-008 (Cadastro da forma de pagamento pelo aluno), RF-009 (QR Code Gerado para o aluno)  
-
- 
-
-Passos do Teste:  
-
- 
-
-Acessar o carrinho de compras.  
-
- 
-
-Selecionar a forma de pagamento e completar o pagamento.  
-
- 
-
-Verificar se o QR Code é gerado e exibido.  
-
- 
-
-Resultado Esperado: Compra finalizada e QR Code gerado corretamente.  
-
- 
-
-Cenário de Teste 6: Cadastro de Estabelecimento  
-
- 
-
-Objetivo: Verificar se novos estabelecimentos podem ser cadastrados corretamente.  
-
- 
-
-Requisitos Atendidos: RF-002 (Cadastramento do estabelecimento e aluno)  
-
- 
-
-Passos do Teste:  
-
- 
-
-Acessar a página de cadastro de estabelecimento.  
-
- 
-
-Preencher o formulário com informações válidas (nome, endereço, categoria).  
-
- 
-
-Submeter o formulário.  
-
- 
-
-Verificar se o estabelecimento é adicionado à lista de estabelecimentos.  
-
- 
-
-Resultado Esperado: Estabelecimento cadastrado com sucesso e exibido na lista.  
-
- 
-
-Cenário de Teste 7: Atualização de Catálogo de Produtos  
-
- 
-
-Objetivo: Verificar se os estabelecimentos podem adicionar e atualizar seus produtos.  
-
- 
-
-Requisitos Atendidos: RF-005 (Cadastramento de lanches pelo estabelecimento), RF-007 (Atualização de preços pelo estabelecimento)  
-
- 
-
-Passos do Teste:  
-
- 
-
-Acessar a página de gerenciamento de produtos do estabelecimento.  
-
- 
-
-Adicionar um novo produto ou atualizar um produto existente.  
-
- 
-
-Verificar se as alterações são refletidas na lista de produtos.  
-
- 
-
-Resultado Esperado: Produtos adicionados ou atualizados com sucesso.  
-
+- **Cenário de Teste 3: Visualização de Estabelecimentos**
+  - **Objetivo:** Verificar se o usuário pode visualizar a lista de estabelecimentos cadastrados.
+  - **Requisitos Atendidos:** RF-003 (Variedade de estabelecimentos)
+  - **Passos do Teste:**
+    > Acessar a página de seleção de estabelecimentos.
+    > Verificar se a lista de estabelecimentos é exibida corretamente.
+    > Selecionar um estabelecimento e verificar se os produtos são exibidos.
+  - **Resultado Esperado:** Lista de estabelecimentos exibida corretamente e produtos visíveis após a seleção.
+
+- **Cenário de Teste 4: Adição de Produtos ao Carrinho**
+  - **Objetivo:** Verificar se o usuário pode adicionar produtos ao carrinho de compras.
+  - **Requisitos Atendidos:** RF-004 (Sistema de catálogo), RF-006 (Adicionar/remover lanches e bebidas pelo estabelecimento)
+  - **Passos do Teste:**
+    > Navegar até a página de produtos de um estabelecimento.
+    > Selecionar um produto e adicionar ao carrinho.
+    > Verificar se o produto aparece no carrinho.
+  - **Resultado Esperado:** Produto adicionado ao carrinho com sucesso.
+
+- **Cenário de Teste 5: Finalização de Compra**
+  - **Objetivo:** Verificar se o usuário pode finalizar a compra e receber um QR Code.
+  - **Requisitos Atendidos:** RF-008 (Cadastro da forma de pagamento pelo aluno), RF-009 (QR Code Gerado para o aluno)
+  - **Passos do Teste:**
+    > Acessar o carrinho de compras.
+    > Selecionar a forma de pagamento e completar o pagamento.
+    > Verificar se o QR Code é gerado e exibido.
+  - **Resultado Esperado:** Compra finalizada e QR Code gerado corretamente.
+
+- **Cenário de Teste 6: Cadastro de Estabelecimento**
+  - **Objetivo:** Verificar se novos estabelecimentos podem ser cadastrados corretamente.
+  - **Requisitos Atendidos:** RF-002 (Cadastramento do estabelecimento e aluno)
+  - **Passos do Teste:**
+    > Acessar a página de cadastro de estabelecimento.
+    > Preencher o formulário com informações válidas (nome, endereço, categoria).
+    > Submeter o formulário.
+    > Verificar se o estabelecimento é adicionado à lista de estabelecimentos.
+  - **Resultado Esperado:** Estabelecimento cadastrado com sucesso e exibido na lista.
+
+- **Cenário de Teste 7: Atualização de Catálogo de Produtos**
+  - **Objetivo:** Verificar se os estabelecimentos podem adicionar e atualizar seus produtos.
+  - **Requisitos Atendidos:** RF-005 (Cadastramento de lanches pelo estabelecimento), RF-007 (Atualização de preços pelo estabelecimento)
+  - **Passos do Teste:**
+    > Acessar a página de gerenciamento de produtos do estabelecimento.
+    > Adicionar um novo produto ou atualizar um produto existente.
+    > Verificar se as alterações são refletidas na lista de produtos.
+  - **Resultado Esperado:** Produtos adicionados ou atualizados com sucesso.
 
 
 
