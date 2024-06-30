@@ -522,7 +522,49 @@ Resultado Esperado: Produtos adicionados ou atualizados com sucesso.
 
 ## Registros de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Para avaliar a aplicação desenvolvida, foram realizados testes detalhados cobrindo os principais cenários de uso, garantindo a conformidade com os requisitos estabelecidos. Abaixo estão os resultados dos testes realizados: 
+
+Resultados dos Testes: 
+
+Os cenários de testes foram executados conforme planejado, e os resultados foram os seguintes: 
+
+Cadastro de Usuário: O teste foi bem-sucedido, com novos usuários sendo capazes de se cadastrar corretamente e acessar a página inicial após o cadastro. 
+
+Login de Usuário: Todos os usuários cadastrados conseguiram realizar o login com sucesso e foram redirecionados para a página de seleção de estabelecimentos. 
+
+Visualização de Estabelecimentos: A lista de estabelecimentos foi exibida corretamente para todos os usuários, e os produtos foram visíveis após a seleção de um estabelecimento. 
+
+Adição de Produtos ao Carrinho: Os usuários conseguiram adicionar produtos ao carrinho de compras sem problemas, conforme o catálogo do estabelecimento selecionado. 
+
+Finalização de Compra: A compra foi finalizada sem falhas, e todos os usuários receberam corretamente o QR Code para confirmação do pedido. 
+
+Cadastro de Estabelecimento: Novos estabelecimentos foram cadastrados com sucesso e apareceram corretamente na lista de estabelecimentos disponíveis. 
+
+Atualização de Catálogo de Produtos: Estabelecimentos conseguiram adicionar novos produtos e atualizar preços conforme necessário, refletindo essas mudanças na lista de produtos disponíveis. 
+
+Pontos Fortes Identificados: 
+
+Funcionalidade Completa: Todos os requisitos funcionais foram atendidos, desde o cadastro até a finalização da compra. 
+
+Usabilidade: A interface permitiu uma navegação intuitiva e sem problemas para os usuários. 
+
+Estabilidade: A aplicação demonstrou ser estável durante os testes, sem crashes ou erros graves. 
+
+Pontos a Melhorar: 
+
+Performance: Em cenários de carga mais elevada, observou-se uma leve degradação na performance durante a atualização do catálogo de produtos. 
+
+Feedback Visual: Em alguns casos, o feedback visual para o usuário poderia ser mais claro, especialmente durante processos como a adição de produtos ao carrinho. 
+
+Planos para Próximas Iterações: 
+
+Otimização de Performance: Investir em melhorias de infraestrutura e otimização de código para lidar de forma mais eficiente com picos de uso. 
+
+Aprimoramento da Interface: Implementar feedback visual mais robusto para garantir que os usuários recebam confirmação clara das ações realizadas. 
+
+Testes de Carga: Expandir os testes de carga para simular condições de uso mais intensas e identificar possíveis pontos fracos antes da implantação. 
+
+Conclusão: Os resultados dos testes demonstram que a aplicação está alinhada com os requisitos funcionais estabelecidos. As melhorias identificadas serão abordadas nas próximas iterações do desenvolvimento, visando garantir uma experiência ainda mais satisfatória e robusta para os usuários finais. 
 
 > Discorra sobre os resultados do teste. Ressaltando pontos fortes e
 > fracos identificados na solução. Comente como o grupo pretende atacar
