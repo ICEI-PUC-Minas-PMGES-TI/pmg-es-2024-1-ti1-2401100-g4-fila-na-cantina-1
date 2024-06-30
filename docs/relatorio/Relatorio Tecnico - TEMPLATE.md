@@ -198,9 +198,7 @@ Nos baseamos na metodologia Scrum, no qual planejamos o projeto e em seguido ava
 
 
 ## Controle de Versão
-O grupo auxiliou na elaboração do projeto por meio de commits em branchs diferentes e depois reunindo tudo na main. 
-
-
+O grupo colaborou no projeto através de commits regulares em branches separadas, documentando o progresso de cada membro. Após revisões e testes, as alterações foram integradas à branch principal (main) por meio de merges, garantindo a coesão e a qualidade do código final.
 
 
 # Projeto da Solução
