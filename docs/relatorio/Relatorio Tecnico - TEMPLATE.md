@@ -255,14 +255,6 @@ Firebase Cloud Functions: execução de código de back-end em resposta a evento
 
 # Avaliação da Aplicação
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Apresente os cenários de testes utilizados na realização dos testes da
-> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
-> sendo satisfeitos.
-
-## Plano de Testes
-
 Para avaliar a aplicação desenvolvida, foram realizados testes detalhados que cobrem os principais cenários de uso, garantindo que todos os requisitos funcionais e não funcionais fossem satisfeitos. Abaixo, apresentamos os cenários de testes utilizados, demonstrando a conformidade com os requisitos estabelecidos.  
 
  
@@ -533,6 +525,14 @@ Verificar se o feedback é registrado e exibido corretamente.
 
 Resultado Esperado: Feedback registrado e exibido corretamente. 
 
+
+> Apresente os cenários de testes utilizados na realização dos testes da
+> sua aplicação. Escolha cenários de testes que demonstrem os requisitos
+> sendo satisfeitos.
+
+## Plano de Testes
+
+......  COLOQUE AQUI O SEU TEXTO ......
  
 > Enumere quais cenários de testes foram selecionados para teste. Neste
 > tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
