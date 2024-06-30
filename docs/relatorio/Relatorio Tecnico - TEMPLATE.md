@@ -392,7 +392,11 @@ Conclusão: Os resultados dos testes demonstram que a aplicação está alinhada
 
 # Referências
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Figma
+LucidChart
+Miro
+UserFlow
+GitHub
 
 > Inclua todas as referências (livros, artigos, sites, etc) utilizados
 > no desenvolvimento do trabalho.
