@@ -498,7 +498,37 @@ Resultado Esperado: Produtos adicionados ou atualizados com sucesso.
 
 ## Plano de Testes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Para a realização dos testes, foram selecionados os seguintes cenários: 
+
+Cadastro de Usuário: Funcionalidade avaliada para verificar a capacidade do sistema de permitir o cadastro correto de novos usuários. 
+
+Login de Usuário: Teste para validar a autenticação adequada dos usuários cadastrados no sistema. 
+
+Visualização de Estabelecimentos: Verificação da funcionalidade que permite aos usuários visualizar a lista de estabelecimentos cadastrados. 
+
+Adição de Produtos ao Carrinho: Avaliação da capacidade do sistema de permitir que os usuários adicionem produtos ao carrinho de compras. 
+
+Finalização de Compra: Teste para assegurar que os usuários possam concluir suas compras com sucesso e receber o QR Code. 
+
+Cadastro de Estabelecimento: Funcionalidade avaliada para verificar a correta adição de novos estabelecimentos ao sistema. 
+
+Atualização de Catálogo de Produtos: Verificação da capacidade dos estabelecimentos de adicionar e atualizar produtos em seu catálogo. 
+
+Grupo de Usuários: 
+
+O teste foi realizado com uma amostra representativa de usuários finais, incluindo usuários novos e existentes do sistema. Também foram incluídos usuários técnicos para testes mais aprofundados de funcionalidades específicas. 
+
+Ferramentas Utilizadas: 
+
+Ambiente de Testes: Ambiente controlado simulando condições de produção. 
+
+Ferramentas de Automação: Para cenários de testes repetitivos e regressão. 
+
+Ferramentas de Monitoramento: Para avaliar a performance e comportamento da aplicação durante os testes de carga. 
+
+Ferramentas de Feedback e Registro de Bugs: Utilizadas para coletar feedback dos usuários e registrar eventuais problemas encontrados durante os testes. 
+
+ 
  
 > Enumere quais cenários de testes foram selecionados para teste. Neste
 > tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo
