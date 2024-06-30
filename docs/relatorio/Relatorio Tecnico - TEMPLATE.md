@@ -248,61 +248,21 @@ Cenário de Teste 1: Cadastro de Usuário
 - Objetivo: Verificar se o sistema permite que novos usuários se cadastrem corretamente.  
 - Requisitos Atendidos: RF-002 (Cadastramento do estabelecimento e aluno)  
 - Passos do Teste:  
-Acessar a página de cadastro.  
-
- 
-
-Preencher o formulário com informações válidas (nome, e-mail, senha).  
-
- 
-
-Submeter o formulário.  
-
- 
-
-Verificar se o usuário é redirecionado para a página inicial e se uma mensagem de sucesso é exibida.  
-
- 
-
-Resultado Esperado: Usuário cadastrado com sucesso e redirecionado para a página inicial.  
-
- 
+    > Acessar a página de cadastro.
+    > Preencher o formulário com informações válidas (nome, e-mail, senha).  
+    > Submeter o formulário.  
+    > Verificar se o usuário é redirecionado para a página inicial e se uma mensagem de sucesso é exibida.  
+- Resultado Esperado: Usuário cadastrado com sucesso e redirecionado para a página inicial.  
 
 Cenário de Teste 2: Login de Usuário  
-
- 
-
-Objetivo: Verificar se o sistema autentica corretamente os usuários cadastrados.  
-
- 
-
-Requisitos Atendidos: RF-002 (Cadastramento do estabelecimento e aluno)  
-
- 
-
-Passos do Teste:  
-
- 
-
-Acessar a página de login.  
-
- 
-
-Preencher o formulário de login com e-mail e senha válidos.  
-
- 
-
-Submeter o formulário.  
-
- 
-
-Verificar se o usuário é redirecionado para a página de seleção de estabelecimentos.  
-
- 
-
-Resultado Esperado: Usuário autenticado com sucesso e redirecionado para a página de seleção de estabelecimentos.  
-
- 
+- Objetivo: Verificar se o sistema autentica corretamente os usuários cadastrados.  
+- Requisitos Atendidos: RF-002 (Cadastramento do estabelecimento e aluno).
+- Passos do Teste:  
+   > Acessar a página de login.  
+   > Preencher o formulário de login com e-mail e senha válidos.  
+   > Submeter o formulário.  
+   > Verificar se o usuário é redirecionado para a página de seleção de estabelecimentos.   
+- Resultado Esperado: Usuário autenticado com sucesso e redirecionado para a página de seleção de estabelecimentos.  
 
 Cenário de Teste 3: Visualização de Estabelecimentos  
 
