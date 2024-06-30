@@ -392,11 +392,11 @@ Conclusão: Os resultados dos testes demonstram que a aplicação está alinhada
 
 # Referências
 
-Figma
-LucidChart
-Miro
-UserFlow
-GitHub
+- Figma: https://www.figma.com/
+- LucidChart: https://www.lucidchart.com/pages/
+- Miro: https://miro.com/pt/
+- UserFlow: https://userflow.com/
+- GitHub: https://github.com/
 
 > Inclua todas as referências (livros, artigos, sites, etc) utilizados
 > no desenvolvimento do trabalho.
