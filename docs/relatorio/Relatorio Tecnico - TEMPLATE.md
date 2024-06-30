@@ -491,38 +491,6 @@ Verificar se as alterações são refletidas na lista de produtos.
 
 Resultado Esperado: Produtos adicionados ou atualizados com sucesso.  
 
- 
-
-Cenário de Teste 8: Sistema de Feedback  
-
- 
-
-Objetivo: Verificar se os usuários podem fornecer feedback sobre os estabelecimentos e vice-versa.  
-
- 
-
-Requisitos Atendidos: RF-010 (Sistema de Feedback Estabelecimento/Aluno)  
-
- 
-
-Passos do Teste:  
-
- 
-
-Acessar a página de feedback.  
-
- 
-
-Preencher e submeter o formulário de feedback.  
-
- 
-
-Verificar se o feedback é registrado e exibido corretamente.  
-
- 
-
-Resultado Esperado: Feedback registrado e exibido corretamente. 
-
 
 > Apresente os cenários de testes utilizados na realização dos testes da
 > sua aplicação. Escolha cenários de testes que demonstrem os requisitos
