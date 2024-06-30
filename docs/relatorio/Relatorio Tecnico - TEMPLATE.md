@@ -225,16 +225,8 @@ Firebase Firestore: banco de dados em tempo real do NoSQL
 Firebase Hosting: hospedagem da aplicação web 
 
 ## Arquitetura da solução
-
+O diagrama abaixo demonstra de manteira bastante sucinta e intuitiva a interação entre os documentos Webs do nosso projeto (com HTML, CSS, JS e Bootstrap), a Internet e os serviços de hospedagem, tanto no frontend quanto no backend.
  ![Exemplo de Arquitetura](images/DiagramaArquitetura.jpeg)
-
-> Inclua um diagrama da solução e descreva os módulos e as tecnologias
-> que fazem parte da solução. Discorra sobre o diagrama.
-> 
-> **Exemplo do diagrama de Arquitetura**:
-> 
-> ![Exemplo de Arquitetura](images/arquitetura-exemplo.png)
-
 
 # Avaliação da Aplicação
 
