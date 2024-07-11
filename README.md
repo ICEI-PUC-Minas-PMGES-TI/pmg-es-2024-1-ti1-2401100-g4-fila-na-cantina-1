@@ -12,6 +12,7 @@ O objetivo principal do nosso projeto é integrar e aproximar a cantina dos alun
 
 ## Professores responsáveis
 
+* Danilo Boechat Seufitelli
 * Diego Augusto de Faria Barros
 * Simone Alves Nogueira
 
